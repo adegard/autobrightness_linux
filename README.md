@@ -11,4 +11,5 @@ xrandr --listmonitors
 crontab -e
 
 DISPLAY=:0
+
 */5 * * * * /usr/bin/python3 /path/to/your/script.py >> /path/to/your/logfile.log 2>&1
